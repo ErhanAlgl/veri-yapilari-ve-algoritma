@@ -109,6 +109,7 @@ Adımlar;
 10.Adım: 2, 3'ten büyük olduğu için 3'ün sağına eklenir.
 
 *** Sonuç:
+
          7
        /   \
      5       8

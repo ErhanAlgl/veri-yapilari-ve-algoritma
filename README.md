@@ -1,4 +1,4 @@
-### PROJE 1
+## PROJE 1
 
 [22,27,16,2,18,6] -> Insertion Sort
 
@@ -16,7 +16,7 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 
 ----------------------------------------------------------------
 
-# Insertion Sort'a göre aşamaları
+### Insertion Sort'a göre aşamaları
 ```
 Her öğeyi solundaki öğeler ile karşılaştırarak sıralama yapacağız.
 1.Adım: [22,27,16,2,18,6] = Sıralanmış ilk dizi (22) ile başlıyoruz. İlk eleman sıralı olarak kabul edildiği için bir değişiklik olmuyor.
@@ -30,19 +30,19 @@ Her öğeyi solundaki öğeler ile karşılaştırarak sıralama yapacağız.
 ```
 ----------------------------------------------------------------
 
-# Big-O gösterimi
+### Big-O gösterimi
 ```
 ** O(n2).
 ```
 ----------------------------------------------------------------
 
-# Time Complexity
+### Time Complexity
 ```
 ** Average case: 18, sıralı dizinin tam ortasında yer almaz ama ortalara yakın bir yerde olduğundan dolayı average case'e daha yakın olarak değerlendirilebilir.
 ```
 ----------------------------------------------------------------
 
-# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı
+### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı
 ```
 1.Adım: [2,3,5,8,7,9,4,15,6] = Sayı öbeğinin en küçüğünü bulup en başa alıp en baştaki ile yer değiştirilir. (2) ile (7) yer değiştirdi.
 2.Adım: [2,3,5,8,7,9,4,15,6] = 2. elaman (3) numarasından sonra sağ taraftaki dizide en küçük olmadığı için aynı kalacak
@@ -53,7 +53,7 @@ Her öğeyi solundaki öğeler ile karşılaştırarak sıralama yapacağız.
 ```
 ----------------------------------------------------------------
 
-### PROJE 2
+## PROJE 2
 
 [16,21,11,8,12,22] -> Merge Sort
 
@@ -62,7 +62,7 @@ Big-O gösterimini yazınız.
 
 ----------------------------------------------------------------
 
-# Merge Short
+### Merge Short
 ```
 [16,21,11,8,12,22]
 1.Adım    [16,21,11]           [8,12,22]
@@ -76,20 +76,20 @@ Big-O gösterimini yazınız.
 ```
 ----------------------------------------------------------------
 
-# Big-O gösterimini
+### Big-O gösterimini
 ```
 ** O(nlogn)
 ```
 ----------------------------------------------------------------
 
-### PROJE 3
+## PROJE 3
 
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
 ----------------------------------------------------------------
 
-# Binary-Search-Tree
+### Binary-Search-Tree
 
 *Not: Sağ tarafından kendinden büyük elemanlar, sol tarafında ise kendinden küçük elemanlar bulunacak.*
 *Not: Root genellikle ilk eleman seçilir.*
@@ -108,7 +108,7 @@ Adımlar;
 10.Adım: 2, 3'ten büyük olduğu için 3'ün sağına eklenir.
 ```
 
-## Sonuç:
+### Sonuç:
 ```
          7
        /   \

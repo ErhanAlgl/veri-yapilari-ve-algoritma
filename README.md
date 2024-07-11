@@ -26,19 +26,19 @@ Her öğeyi solundaki öğeler ile karşılaştırarak sıralama yapacağız.
 5.Adım: [2,16,18,22,27,6] = (18) ile solundaki sayılar karşılaştırılarak (18) 3. dizideki yerini alıyor.
 6.Adım: [2,6,16,18,22,27] = (6) ile solundaki sayılar karşılaştırılarak doğru yere yerleştiriliyor.
 
-** Sonuç olarak 6 adımda Insertion short'a göre sıralı diziye ulaşmış oluyoruz => [2,6,16,18,22,27]
+Sonuç olarak 6 adımda Insertion short'a göre sıralı diziye ulaşmış oluyoruz => [2,6,16,18,22,27]
 ```
 ----------------------------------------------------------------
 
 ### Big-O gösterimi
 ```
-** O(n2).
+O(n2).
 ```
 ----------------------------------------------------------------
 
 ### Time Complexity
 ```
-** Average case: 18, sıralı dizinin tam ortasında yer almaz ama ortalara yakın bir yerde olduğundan dolayı average case'e daha yakın olarak değerlendirilebilir.
+Average case: 18, sıralı dizinin tam ortasında yer almaz ama ortalara yakın bir yerde olduğundan dolayı average case'e daha yakın olarak değerlendirilebilir.
 ```
 ----------------------------------------------------------------
 
@@ -49,7 +49,7 @@ Her öğeyi solundaki öğeler ile karşılaştırarak sıralama yapacağız.
 3.Adım: [2,3,4,8,7,9,5,15,6] = 3. elaman (5) ile (4) yer değiştirerek. 3.eleman artık (4) olacak.
 4.Adım: [2,3,4,5,7,9,8,15,6] = 4. elaman (8) ile (5) yer değiştirerek. 4.eleman artık (5) olacak.
 
-** İlk 4 adım sonucu => [2,3,4,5,7,9,8,15,6]
+İlk 4 adım sonucu => [2,3,4,5,7,9,8,15,6]
 ```
 ----------------------------------------------------------------
 
@@ -72,13 +72,13 @@ Big-O gösterimini yazınız.
 5.Adım    [11,16,21]           [8,12,22]
 6.Adım          [8,11,12,16,21,22]
           
-** Merge Short türüne göre sonuç => [8,11,12,16,21,22]
+Merge Short türüne göre sonuç => [8,11,12,16,21,22]
 ```
 ----------------------------------------------------------------
 
 ### Big-O gösterimini
 ```
-** O(nlogn)
+O(nlogn)
 ```
 ----------------------------------------------------------------
 

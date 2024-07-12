@@ -105,7 +105,7 @@ Adımlar;
 7.Adım: 0, 1'den küçük olduğu için 1'in soluna eklenir.
 8.Adım: 9, 8'den büyük olduğu için 8'in sağına eklenir.
 9.Adım: 4, 3'ten büyük olduğu için 3'ün sağına eklenir.
-10.Adım: 2, 3'ten büyük olduğu için 3'ün sağına eklenir.
+10.Adım: 2, 3'ten küçük olduğu için 3'ün soluna eklenir.
 ```
 
 ### Sonuç:
